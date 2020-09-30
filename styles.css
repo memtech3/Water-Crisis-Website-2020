@@ -1,0 +1,31 @@
+.content {
+    padding-top: 80px;
+  }
+#header {
+    color:;
+}
+.noborder {
+    border: none;
+}
+.center {
+    text-align: center;
+}
+.caption{
+    font-size: small;
+    color: silver;
+}
+.w-100{
+    width: 100%;
+}
+  @media only screen and (min-width: 980px) {
+    .content {
+        padding-left: 15%;
+        padding-right: 15;
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    .content {
+        padding-left: 12.5%;
+        padding-right: 12.5;
+    }
+  }
