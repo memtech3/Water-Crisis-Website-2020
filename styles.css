@@ -20,12 +20,29 @@
   @media only screen and (min-width: 980px) {
     .content {
         padding-left: 15%;
-        padding-right: 15;
+        padding-right: 15%;
     }
   }
   @media only screen and (max-width: 980px) {
     .content {
         padding-left: 12.5%;
-        padding-right: 12.5;
+        padding-right: 12.5%;
     }
   }
+.alert {
+    padding: .3em .9em;
+    border: 0;
+    border-radius: .2em;  
+    color: #fff;
+    background: #0074d9;
+    margin: 15px;
+}
+.alert-success {
+  background: #2ecc40;
+}
+.alert-warning {
+  background: #ff851b
+}
+.alert-disabled {
+  background: #ff4136;
+}
